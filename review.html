@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Review</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+	<link href="css/agency.css" rel="stylesheet">
+
+
+  </head>
+
+<body class="container" background="img/bg1.jpg" style="no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;">
+    <div class="bg"></div>
+  <header>
+    <h1>Review</h1>
+  </header>
+   Required field </br>
+  <section>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form data-band-review="form" id="form">
+          <div class="form-group">
+            <label for="name">Name*</label>
+            <input class="form-control" name="Name" id="name" autofocus required/>
+          </div>
+          <div class="form-group">
+            <label for="rating">Rating</label>
+            <div class="rating">
+            <label>
+              <input type="radio" name="Rating" value="1" />
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="Rating" value="2" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="Rating" value="3" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="Rating" value="4" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="Rating" value="5" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+</div>
+          </div>
+          <div class="form-group transparent-input">
+
+            <label for="reviewText">Review*</label>
+             <br/>
+                    <textarea name="Description" form="form" rows="5" cols="60" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <div data-band-review = "user-comments"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+  <!--for modal-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+  <script src="scripts/review.js" charset="utf-8"></script>
+  <script src="scripts/formhandler.js" charset="utf-8"></script>
+  <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+  <script src="scripts/band.js" charset="utf-8"></script>
+  <script src="scripts/reviewform.js" charset="utf-8"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"Name": {
+			"name": "Name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "Name",
+			"order": 0
+		},
+		"Rating": {
+			"name": "Rating",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "Rating",
+			"order": 1
+		},
+		"Description": {
+			"name": "Description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "Description",
+			"order": 2
+		},
+		"bandName": {
+			"name": "bandName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "bandName",
+			"order": 3
+		}
+	}
+}
